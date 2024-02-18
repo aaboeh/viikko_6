@@ -12,7 +12,7 @@ public class App
 
        boolean exit = false;
        while(!exit) {
-        System.out.println("1) Luo uusi kulkuneuvo, 2) Listaa kulkuneuvot, 3) Aja autoja, 4) Lennä lentokoneita, 5) Seilaa laivoja, 0) Lopeta ohjelma");
+        System.out.println("1) Luo uusi kulkuneuvo, 2) Listaa kulkuneuvot 3) Aja autoja, 4) Lennä lentokoneita, 5) Seilaa laivoja, 0) Lopeta ohjelma");
         if (sc.hasNext()) {
             int i = 0;
             String stringInput = sc.nextLine();
@@ -26,7 +26,7 @@ public class App
                     String manufacturer = sc.nextLine();
                     System.out.println("Anna kulkuneuvon malli:");
                     String model = sc.nextLine();
-                    System.out.println("Anna kulkuneuvon huippunopeus");
+                    System.out.println("Anna kulkuneuvon huippunopeus:");
                     int maxSpeed = Integer.parseInt(sc.nextLine());
 
                     switch (vehicleChoice) {
